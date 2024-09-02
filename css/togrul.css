@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+li {
+    list-style: none;
+}
+
+
+#togrul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+
+}
+
+#togrul .togrul-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 90px;
+
+
+
+}
+
+.togrul-header img {
+    width: 112px;
+    height: 66px;
+    margin: 15px 0px 0px 35px;
+
+}
+
+.togrul-nav {
+    margin-left: 110px;
+    margin-top: 100px
+}
+
+.togrul-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.togrul-nav ul li {
+    margin-left: 15px;
+}
+
+.togrul-nav ul li a {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.togrul-nav img {
+    width: 20px;
+    height: 22px;
+}
+
+.togrul-itemall {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.togrul-itemall .left {
+    width: 50%;
+    height: 200px;
+}
+
+.togrul-itemall .left h1 {
+    width: 628px;
+    height: 190px;
+    top: 248px;
+    left: 122px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.togrul-itemall .left p {
+    width: 414px;
+    height: 62px;
+    top: 427px;
+    left: 122px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.togrul-itemall .right img {
+    width: 80%;
+    height: 356px;
+    top: 223px;
+    left: 890px;
+}
+
+.togrul-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.togrul-box .togrul-box1 {
+    width: 300px;
+    height: 135px;
+    background-color: #1E4681;
+    padding: 10px;
+}
+
+.togrul-box .togrul-box1 p {
+    width: 315px;
+    height: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+.togrul-box .togrul-box1 span {
+    margin-top: 30px;
+    float: right;
+    color: white;
+}
+
+
+@media (min-width:560px) and (max-width:992px) {
+
+
+
+    .togrul-itemall .right img {
+        width: 200px;
+    }
+
+}
+
+@media (min-width:100px) and (max-width:562px) {
+
+
+
+    .togrul-itemall {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .togrul-itemall .right img {
+        margin-top: 100px;
+    }
+}
