@@ -1,0 +1,115 @@
+h4 {
+    margin: 0px;
+}
+
+.mahmud {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 100px 0px;
+}
+
+.mahmud-main {
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.mahmud-left-section {
+    width: 35%;
+    word-spacing: 10px;
+}
+
+.mahmud-subsection {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: center;
+}
+
+.mahmud-subsection p {
+    width: 100px;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14.3px;
+    text-align: left;
+    text-wrap: balance;
+    color: black;
+
+}
+
+#mahmud>h1 {
+    margin: 0px;
+    font-weight: 700;
+}
+
+#mahmud>h4 {
+    font-weight: 700;
+}
+
+
+.mahmud-left-section img {
+    width: 314px;
+    height: 315px;
+}
+
+.mahmud-left-section p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+
+}
+
+
+.mahmud-main img {
+    width: 300px;
+    height: 270px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.mahmud-subsection>img {
+    width: 232px;
+    height: 203px;
+}
+
+.mahmud-subsection div {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+
+
+}
+
+
+@media (min-width: 250px) and (max-width: 662px) {
+    .mahmud-main {
+        display: grid;
+        flex-direction: column;
+    }
+
+    .mahmud-left-section {
+        width: 100%;
+    }
+
+    .mahmud-left-section img {
+        justify-self: center;
+    }
+
+    .mahmud-subsection>img {
+        display: none;
+    }
+
+    .mahmud-subsection {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .mahmud-subsection div {
+        width: 45%;
+    }
+}
