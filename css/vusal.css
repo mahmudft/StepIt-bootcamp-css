@@ -1,0 +1,25 @@
+* {
+    font-family: Roboto Slab;
+
+}
+
+.vusal-yuxari-hisse {
+   display: flex;
+   flex-direction: row;
+   gap: 15%;
+
+}
+
+
+.p1 {
+    color: blue;
+    font-weight: 600;
+}
+div>.p1{
+    width: 200px;
+    height:20px;
+}
+.vusal-asagi-hisse{
+display: flex;
+flex-direction: row;
+}
