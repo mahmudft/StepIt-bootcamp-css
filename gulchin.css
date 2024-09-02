@@ -1,0 +1,355 @@
+.gulchin_container{
+    display:grid;
+    grid-template-columns:418px  418px 418px ;
+    grid-template-rows: 380px 380px 380px 380px;
+    grid-gap:20px;
+    margin-left :90px;
+    margin-top: 50px;
+}
+.title{
+width: 905px;
+height: 93px;
+margin-top: 3246px;
+margin-left: 121px;
+gap: 0px;
+opacity: 0px;
+font-family: Roboto Slab;
+font-size: 55px;
+font-weight: 700;
+line-height: 55.76px;
+text-align: left;
+color: #000000;
+
+
+}
+.gulchin_one>img{
+width: 418px;
+height: 160px;
+margin-left:0px;
+gap: 0px;
+opacity: 0px;
+
+}
+.gulchin_kino{
+width: 365px;
+height: 39px;
+margin-top:20px;
+margin-left:20px;
+gap: 0px;
+opacity: 0px;
+font-family: Roboto;
+font-size: 30px;
+font-weight: 700;
+line-height: 39px;
+text-align: left;
+color: #000000;
+
+}
+.gulchin_saat{
+width: 365px;
+height: 63px;
+margin-top: 20px;
+margin-left: 20px;
+gap: 0px;
+opacity: 0px;
+font-family: Roboto;
+font-size: 25px;
+font-weight: 400;
+line-height: 32.5px;
+text-align: left;
+color: #000000;
+
+}
+.gulchin_one{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9%;
+}
+.gulchin_two{
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9%;
+}
+.gulchin_two>img{
+width: 399px;
+height: 160px;
+margin-left:0px;
+gap: 0px;
+opacity: 0px;
+}
+.dramaturq{
+    width: 365px;
+    height: 39px;
+    margin-top:20px;
+    margin-left:20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #000000;
+    
+}
+.danila{
+width: 365px;
+height: 63px;
+margin-top: 20px;
+margin-left: 20px;
+gap: 0px;
+opacity: 0px;
+font-family: Roboto;
+font-size: 25px;
+font-weight: 400;
+line-height: 32.5px;
+text-align: left;
+color: #000000;
+}
+.gulchin_three{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9%;
+    margin-left: 20px;
+}
+.rejisyor{
+    width: 365px;
+    height: 39px;
+    margin-top:20px;
+    margin-left:20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #000000;
+}
+.baxis{
+    width: 365px;
+height: 63px;
+margin-top: 20px;
+margin-left: 20px;
+gap: 0px;
+opacity: 0px;
+font-family: Roboto;
+font-size: 25px;
+font-weight: 400;
+line-height: 32.5px;
+text-align: left;
+color: #000000;
+}
+.gulchin_three>img{
+    width: 399px;
+    height: 160px;
+    margin-left:0px;
+    gap: 0px;
+    opacity: 0px;
+}
+.gulchin_four{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9%;
+    margin-left: 20px;
+}
+.gulchin_four>img{
+width: 399px;
+height: 160px;
+margin-left:0px;
+gap: 0px;
+opacity: 0px;
+}
+.montaj{
+    width: 365px;
+    height: 39px;
+    margin-top:20px;
+    margin-left:20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #000000;
+}
+.gulchin_head{
+    width: 365px;
+    height: 63px;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.5px;
+    text-align: left;
+    color: #000000;  
+}
+.gulchin_five{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9%;
+    margin-left: 20px;
+}
+.gulchin_five>img{
+width: 399px;
+height: 160px;
+margin-left:0px;
+gap: 0px;
+opacity: 0px;
+}
+.aktyor{
+    width: 365px;
+    height: 39px;
+    margin-top:20px;
+    margin-left:20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #000000;
+}
+.gulchin_article{
+    width: 365px;
+    height: 63px;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.5px;
+    text-align: left;
+    color: #000000;  
+}
+.gulchin_six{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9%;
+    margin-left: 20px;
+}
+.gulchin_six>img{
+    width: 399px;
+    height: 160px;
+    margin-left:0px;
+    gap: 0px;
+    opacity: 0px;
+}
+.seminar{
+    width: 365px;
+    height: 39px;
+    margin-top:20px;
+    margin-left:20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #000000;
+}
+.diller{
+    width: 365px;
+    height: 63px;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.5px;
+    text-align: left;
+    color: #000000;  
+}
+.gulchin_seven{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9%;
+    margin-left: 20px;
+}
+.gulchin_seven>img{
+    width: 399px;
+    height: 160px;
+    margin-left:0px;
+    gap: 0px;
+    opacity: 0px;
+}
+.kinotoqrafiya{
+    width: 365px;
+    height: 39px;
+    margin-top:20px;
+    margin-left:20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #000000;
+}
+.ulduz{
+    width: 365px;
+    height: 63px;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.5px;
+    text-align: left;
+    color: #000000;  
+}
+.gulchin_eight{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9%;
+    margin-left: 20px;
+}
+.gulchin_eight>img{
+    width: 399px;
+    height: 160px;
+    margin-left:0px;
+    gap: 0px;
+    opacity: 0px;
+}
+.arasdirma{
+    width: 365px;
+    height: 39px;
+    margin-top:20px;
+    margin-left:20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #000000;
+}
+.zritel{
+    width: 365px;
+    height: 63px;
+    margin-top: 40px;
+    margin-left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.5px;
+    text-align: left;
+    color: #000000;  
+}
