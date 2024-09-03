@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+li {
+    list-style: none;
+}
+
+
+#togrul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 100px;
+
+
+}
+
+#togrul .togrul-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 90px;
+
+
+
+
+}
+
+.togrul-header img {
+    width: 112px;
+    height: 66px;
+    margin: 0px 0px 0px 80px;
+
+}
+
+.header ul li img {
+    width: 22px;
+    margin-right: 8px;
+
+}
+
+.header ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.header ul li {
+    margin-left: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+
+
+.main_ {
+    padding: 20px;
+    text-align: left;
+    margin-left: 28px;
+}
+
+.main_ h1 {
+    font-weight: 700;
+    font-size: 80px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    line-height: 81px;
+
+}
+
+.main_ p {
+    font-size: 1.125rem;
+    color: #555;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.main img {
+    width: 304px;
+    height: 356px;
+}
+
+
+.foot__{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.foot .foot_{
+    padding: 15px;
+    width: 280px;
+    height: 115px;
+    background-color: #1E4681;
+    color: white;
+}
+
+.foot_ p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.foot_ span{
+    float: right;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+
+
+
+@media (min-width:100px) and (max-width:540px) {
+
+    .togrul-header img {
+        width: 112px;
+        height: 66px;
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    .main_ h1 {
+        font-weight: 700;
+        font-size: 50px;
+        margin-bottom: 10px;
+        font-family: "Roboto", sans-serif;
+        line-height: 81px;
+
+    }
+}
+
+@media (min-width:540px) and (max-width:776px) {
+    .main_ h1 {
+        font-weight: 700;
+        font-size: 74px;
+        margin-bottom: 10px;
+        font-family: "Roboto", sans-serif;
+
+
+    }
+
+    .foot__{
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+}
