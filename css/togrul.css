@@ -32,9 +32,9 @@ li {
 }
 
 #togrul .togrul-header {
-    display: flex;
+    /* display: flex;
     justify-content: flex-start;
-    margin-left: 90px;
+    margin-left: 40px; */
 
 
 
@@ -44,7 +44,7 @@ li {
 .togrul-header img {
     width: 112px;
     height: 66px;
-    margin: 0px 0px 0px 80px;
+    margin: 0px;
 
 }
 
@@ -65,9 +65,15 @@ li {
     margin-left: 15px;
 }
 
+.container{
+    margin: 0px;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
+    
+
 
 
 
@@ -76,7 +82,7 @@ li {
 
 
 .main_ {
-    padding: 20px;
+    
     text-align: left;
     margin-left: 28px;
 }

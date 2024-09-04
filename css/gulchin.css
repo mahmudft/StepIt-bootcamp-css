@@ -4,13 +4,14 @@
     grid-template-columns:418px  418px 418px ;
     grid-template-rows: 380px 380px 380px 380px;
     margin-top: 90px;
+    margin-left: 90px;
     width: 100%;
     gap:20px
 }
 .title{
 width: 905px;
 height: 93px;
-
+margin-left: 28px;
 gap: 0px;
 opacity: 0px;
 font-family: Roboto Slab;
@@ -356,7 +357,6 @@ opacity: 0px;
 }
 @media (max-width: 1024px) {
     .gulchin_container {
-        grid-template-columns: repeat(2, 1fr); 
         margin-left: 20px;
   
   }
