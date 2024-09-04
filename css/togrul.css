@@ -31,7 +31,7 @@ li {
 
 }
 
-#togrul .togrul-header {
+#togrul.togrul-header {
     /* display: flex;
     justify-content: flex-start;
     margin-left: 40px; */
