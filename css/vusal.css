@@ -1,25 +1,137 @@
 * {
     font-family: Roboto Slab;
+    padding: 5px;
 
 }
+
+h4 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: left;
+
+}
+
+h1 {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.76px;
+    text-align: left;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+
+}
+
+li {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+p {
+    margin: 0px;
+}
+
+body {
+
+    margin: 0px;
+
+}
+
+
 
 .vusal-yuxari-hisse {
-   display: flex;
-   flex-direction: row;
-   gap: 15%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
 
 }
 
-
-.p1 {
+.vusal-yuxari-hisse>div>h4 {
     color: blue;
-    font-weight: 600;
 }
-div>.p1{
-    width: 200px;
-    height:20px;
+
+.vusal-asagi-hisse>h1 {
+    margin-top: 150px;
 }
-.vusal-asagi-hisse{
-display: flex;
-flex-direction: row;
+
+.vusal-asagi-hisse {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+p {
+    width: 55%;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+@media (min-width:100px) and (max-width: 800px) {
+    .vusal-yuxari-hisse {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vusal-asagi-hisse {
+        gap: 0px;
+        width: 90%;
+    }
+
+    body {
+        padding: 5px;
+        align-items: start;
+
+    }
+
+    h1 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 26.36px;
+        text-align: left;
+
+    }
+
+    li {
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+
+
+
+    }
+
+    p {
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13px;
+        text-align: left;
+
+    }
+
+    h4 {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15.6px;
+        text-align: left;
+
+    }
 }
